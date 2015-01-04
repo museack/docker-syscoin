@@ -24,7 +24,9 @@ RUN	apt-get update \
         && apt-get install -y libminiupnpc-dev \
         && apt-get install -y make \
         && apt-get install -y automake \
+	&& pwd \
 	&& apt-get autoclean 
+
 #	&& git clone https://github.com/syscoin/syscoin
 
 COPY	. /

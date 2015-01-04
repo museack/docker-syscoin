@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+
+exec su mazamulti -c /usr/local/bin/tacocoind
